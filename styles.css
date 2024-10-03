@@ -19,7 +19,7 @@ h1 {
 
 .header,
 .section-1 {
-    background-color: rgb(24, 50, 81);
+    background-color: #1F2937;
     color: #F9FAF8;
 }
 
@@ -93,7 +93,10 @@ li a {
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 100px 18vw;
+    padding-left: 18vw;
+    padding-right: 18vw;
+    padding-top: 30px;
+    padding-bottom: 86px;
 }
 
 .section-2 h2 {
@@ -122,4 +125,38 @@ li a {
     font-weight: bold;
     text-align: right;
     margin-top: 10px;
+}
+
+.sign-up-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 30px 120px;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+
+.sign-up-container p {
+    margin: 0;
+}
+
+.section-4 {
+    padding: 40px 18vw;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 20vw;
+    text-align: center;
+}
+
+.sign-up-container button {
+    background-color: #3882F6;
+    border: solid 1px #F9FAF8;
+    border-radius: 6px;
+    padding: 4px 20px;
+
 }
